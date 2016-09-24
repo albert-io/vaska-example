@@ -12,6 +12,7 @@ export class User extends React.Component {
         <div>{this.props.username}</div>
         <div>{task}</div>
         <div>{status}</div>
+        <div>{user.interface.city}</div>
       </div>
     )
   }

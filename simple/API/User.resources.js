@@ -16,7 +16,9 @@ class UserInterface {
     this._data = data;
   }
 
-  get
+  get city() {
+    return this._data.getIn(['location', 'address', 'city'], '');
+  }
 }
 
 export const resources = [
@@ -28,6 +30,7 @@ export const resources = [
   {
     id: 'USER',
     endpoint: '/users/:username',
-    model: UserModel
+    model: UserModel,
+    modelInterface: UserInterface
   },
 ];

@@ -17,12 +17,11 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "immutable": "^3.8.1",
-    "lodash": "^4.11.2",
+    "lodash": "^4.16.1",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-router": "^2.6.1"
-  },
-  "devDependencies": {
+    "react-router": "^2.6.1",
+    "vaska": "^1.0.0",
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-class-properties": "^6.11.5",
